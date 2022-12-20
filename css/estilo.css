@@ -8,8 +8,7 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100%;
+body {
     height: 100vh;
     background-color: lightgray;
 }

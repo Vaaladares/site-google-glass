@@ -194,8 +194,12 @@ table tr .direita {
     font-weight: normal;
 }
 
+.video1 {
+    margin-top: 10px;
+}
+
 aside { 
-    margin: 10px;
+    margin: auto 25px 20px 25px;
     padding: 10px;
     background-color: lightgray;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
@@ -209,7 +213,7 @@ aside p {
 
 aside h2 {
     font-family: 'Cabin', sem serifa;
-    font-weight: normal;
+    font-weight: bold;
     color: rgb(66, 66, 66);
     margin-bottom: 10px;
 }
@@ -217,13 +221,14 @@ aside h2 {
 aside h3 {
     background-color: lightgray;
     color: white;
-    padding: 7px;
+    padding: 9px;
     font-size: 15px;
+    background-color: rgb(66, 66, 66);
 }
 
-aside .nov {
-    background-color: gray;
-    margin: 12px 0;
+.nov {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer {

@@ -26,7 +26,7 @@ main {
 }
 
 header {
-    background-image: url(../_imagens/glass-logo-peq.jpg);
+    background-image: url(../imagens/glass-logo-peq.jpg);
     background-repeat: no-repeat;
     background-position-y: 80px;
     background-position-x: 5px;

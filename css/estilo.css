@@ -106,6 +106,7 @@ section .cabeça h1{
     display: block;
     position: relative;
     left: -15px;
+    padding: 0px;
 }
 
 .cabeça .atualizacao {

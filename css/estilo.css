@@ -43,6 +43,7 @@ header {
     color: rgb(102, 102, 102);
     margin-bottom: 5px;
     font-family: 'Cabin', sem serifa;
+    font-size: 35px;
 }
 
 .gg p {
@@ -85,14 +86,15 @@ li a:hover {
 }
 
 section {
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 10px;
 }
 
 section .cabeça h1{
     color: rgb(66, 66, 66);
-    margin: 15px 0 0 0;
+    margin: 10px 0 3px 0;
     font-family: 'Cabin', sem serifa;
+    font-size: 20px;
 }
 
 .cabeça p {
@@ -114,7 +116,7 @@ section .cabeça h1{
     text-align: right;
     font-size: 10px;
     margin-top: 10px;
-    top: 10px;
+    top: 15px;
 }
 
 section p {

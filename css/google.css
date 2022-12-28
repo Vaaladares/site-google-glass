@@ -16,8 +16,20 @@ article {
     margin: auto;
 }
 
+article h3 {
+    padding-left: 2px;
+}
+
 #camera header {
     display: block;
+}
+
+#tela p {
+    padding: 15px;
+}
+
+#sensores p {
+    padding: 15px;
 }
 
 header h2 {

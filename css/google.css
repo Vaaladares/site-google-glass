@@ -1,3 +1,5 @@
+/* Configuação Geral */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,24 +14,11 @@ p {
 }
 
 article {
-    display: block;
-    margin: auto;
+    margin-bottom: 100px;
 }
 
 article h3 {
     padding-left: 2px;
-}
-
-#camera header {
-    display: block;
-}
-
-#tela p {
-    padding: 15px;
-}
-
-#sensores p {
-    padding: 15px;
 }
 
 header h2 {
@@ -42,19 +31,16 @@ header h2 {
 
 header h3 {
     color: rgb(143, 143, 143);
-    font-size: 15px;
-    margin: 10px;
-}
-
-header h3 {
-    color: rgb(143, 143, 143);
     font-weight: bold;
     font-size: 15px;
     text-indent: 0px;
+    margin: 10px;
 }
 
-#tela {
-    margin-bottom: 200px;
+/* Configuração da tela */
+
+#tela p {
+    padding: 15px;
 }
 
 #tela img {
@@ -62,8 +48,10 @@ header h3 {
     padding: 10px;
 }
 
-#camera {
-    margin-bottom: 200px;
+/* Configuração da camera */
+
+#camera header {
+    display: block;
 }
 
 #camera p {
@@ -79,8 +67,10 @@ header h3 {
     margin-top: 10px;
 }
 
-#sensores {
-    margin-bottom: 200px;
+/* Configuração do sensores */
+
+#sensores p {
+    padding: 15px;
 }
 
 #sensores img {
@@ -88,15 +78,25 @@ header h3 {
     padding: 10px;
 }
 
+/* Configuração da bateria */
+
 #bateria {
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 #bateria p {
     display: block;
     float: left;
-    width: 55%;
+    width: 53%;
 }
+
+#bateria img {
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+
 
 
 

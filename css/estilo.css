@@ -34,21 +34,23 @@ header {
     display: block;
 }
 
-.gg {
+header .gg {
     padding: 10px;
     height: 120px;
 }
 
-.gg h1 {
+header .gg h1 {
     color: rgb(102, 102, 102);
     margin-bottom: 5px;
     font-family: 'Cabin', sem serifa;
     font-size: 35px;
 }
 
-.gg p {
+header .gg p {
     color: rgb(143, 143, 143);
 }
+
+/***** Configuação do menu ****/
 
 #burguer {
     display: block;
@@ -85,38 +87,11 @@ li a:hover {
     background-color: rgb(66, 66, 66);
 }
 
+/**** Configuração da Section ****/
+
 section {
     margin-top: 5px;
     padding: 10px;
-}
-
-section .cabeça h1{
-    color: rgb(66, 66, 66);
-    margin: 10px 0 3px 0;
-    font-family: 'Cabin', sem serifa;
-    font-size: 20px;
-}
-
-.cabeça p {
-    display: block;
-    position: relative;
-    color: rgb(143, 143, 143);
-    font-size: 12px;
-}
-
-.cabeça .pe {
-    display: block;
-    position: relative;
-    left: -15px;
-    padding: 0px;
-}
-
-.cabeça .atualizacao {
-    display: block;
-    text-align: right;
-    font-size: 10px;
-    margin-top: 10px;
-    top: 16.2px;
 }
 
 section p {
@@ -133,19 +108,48 @@ section h3 {
     font-size: 15px;
 }
 
-figure {
+section .cabeça h1{
+    color: rgb(66, 66, 66);
+    margin: 10px 0 3px 0;
+    font-family: 'Cabin', sem serifa;
+    font-size: 20px;
+}
+
+section .cabeça p {
+    display: block;
+    position: relative;
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+}
+
+section .cabeça .pe {
+    display: block;
+    position: relative;
+    left: -15px;
+    padding: 0px;
+}
+
+section .cabeça .atualizacao {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px;
+    top: 16.2px;
+}
+
+section figure {
     position: relative;
     border: 4px solid white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404);
     margin-top: 10px;
 }
 
-img {
+section figure img {
     width: 100%;
     height: 100%;
 }
 
-figcaption {
+section figure figcaption {
     opacity: 0;
     width: 100%;
     height: 98%;
@@ -157,27 +161,15 @@ figcaption {
     transition: 1s;
 }
 
-figcaption:hover {
+section figure figcaption:hover {
     opacity: 1;
 }
 
-caption {
-    position: relative;
-    color: rgb(143, 143, 143);
-    font-weight: bold;
-    font-size: 14px;
-    top: 7px;
-    
+section .video1 {
+    margin-top: 10px;
 }
 
-span {
-    position: relative;
-    display: block;
-    text-align: right;
-    font-size: 8px;
-    top: -4px;
-    padding-right: 5px;
-}
+/**** Configuação da Tabela ****/
 
 table {
     width: 100%;
@@ -189,10 +181,22 @@ table {
     margin: 10px 0px 10px 0px;
 }
 
-
 table caption {
+    position: relative;
+    color: rgb(143, 143, 143);
+    font-weight: bold;
     font-size: 14px;
+    top: 7px;  
     margin-bottom: 2px;
+}
+
+table span {
+    position: relative;
+    display: block;
+    text-align: right;
+    font-size: 8px;
+    top: -4px;
+    padding-right: 5px;
 }
 
 table td {
@@ -208,9 +212,7 @@ table tr .direita {
     font-weight: normal;
 }
 
-.video1 {
-    margin-top: 10px;
-}
+/**** Configuação do Aside ****/
 
 aside { 
     margin: 10px;
@@ -229,7 +231,6 @@ aside p {
     padding: 5px;
 }
 
-
 aside h2 {
     font-family: 'Cabin', sem serifa;
     font-weight: bold;
@@ -246,10 +247,12 @@ aside h3 {
     background-color: rgb(66, 66, 66);
 }
 
-.nov {
+aside .nov {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/**** Confiaguação do Footer ****/
 
 footer {
     padding: 10px;

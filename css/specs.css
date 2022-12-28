@@ -6,3 +6,9 @@ article img {
     padding: 10px;
    
 }
+
+article h3 {
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(143, 143, 143);
+}

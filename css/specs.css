@@ -7,8 +7,9 @@ article img {
    
 }
 
-article h3 {
+#conteudo h3 {
     font-size: 15px;
-    padding: 10px;
+    padding-left: 10px;
     color: rgb(143, 143, 143);
+    background-color: white;
 }

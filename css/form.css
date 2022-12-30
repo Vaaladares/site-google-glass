@@ -8,12 +8,13 @@ fieldset {
 input {
     margin: 5px;
     padding: 5px;
+    font-size: 13px;
 }
 
 /* Formatação da identificação*/
 
 fieldset #fsexo {
-    height: 80px;
+    height: 90px;
     width: 150px;
 }
 
@@ -24,5 +25,15 @@ fieldset #fsexo {
     font-size: 15px;
     margin: 0px;
     size: 30px;
+    border: none;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+#botao:hover {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(143, 143, 143);
+    color: black;
 }
 

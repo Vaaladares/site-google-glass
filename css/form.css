@@ -7,13 +7,10 @@ fieldset {
 
 input {
     margin: 5px;
+    padding: 5px;
 }
 
 /* Formatação da identificação*/
-
-fieldset #identificacao {
-    
-}
 
 fieldset #fsexo {
     height: 80px;

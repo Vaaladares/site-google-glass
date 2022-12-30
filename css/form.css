@@ -3,12 +3,18 @@
 fieldset {
     margin-bottom: 10px;
     padding: 10px;
+    border-color: rgba(143, 143, 143, 0.5);
 }
 
 input {
     margin: 5px;
     padding: 5px;
     font-size: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(143, 143, 143);
 }
 
 /* Formatação da identificação*/

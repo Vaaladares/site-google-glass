@@ -50,44 +50,44 @@
 
             <section id="fomularios">
 
-                <form action="" method="post">
+                <form action="login.php" method="post" autocomplete="off">
                     <fieldset id="identificacao">
                         <legend>Identificação do Usuário</legend>
-                        Nome: <input type="text" name="nome" id="nome" placeholder=" Nome completo"> <br>
-                        Senha: <input type="password" name="senha" id="senha" placeholder=" 8 Dígitos"> <br>
+                        Nome: <input type="text" name="nome" id="nome" placeholder=" Nome completo" size="20"> <br>
+                        Senha: <input type="password" name="senha" id="senha" placeholder=" 8 Dígitos" size="8"> <br>
                         E-mail: <input type="email" name="email" id="email" placeholder=" E-mail">
                         <fieldset id="fsexo">
                             <legend>Sexo:</legend>
                                 <input type="radio" name="sexo" id="sexomas"> Masculino <br>
                                 <input type="radio" name="sexo" id="sexofem"> Feminino
                         </fieldset>
-                        Data de Nascimento: <input type="date" name="" id="">
+                        Data de Nascimento: <input type="date" name="nasc" id="nasc">
                     </fieldset>
                     
                     <fieldset id="endereco">
                         <legend>Endereço do Usuário</legend>
                         Logradouro: <input type="text" name="log" id="log" placeholder=" Rua, Av, ..."> <br>
-                        Número: <input type="number" name="numero" id="numero"> <br>
-                        Estado: <input type="search" name="estado" id="estado"> <br>
-                        Cidade: <input type="text" name="cidade" id="cidade" placeholder=" Sua cidade"> <br>
+                        Número: <input type="text" name="numero" id="numero" max="6" size="3"> <br>
+                        Estado: <input type="search" name="estado" id="estado" size="10"> <br>
+                        Cidade: <input type="text" name="cidade" id="cidade" placeholder=" Sua cidade" size="10"> <br>
                     </fieldset>
 
                     <fieldset id="msg">
                         <legend>Mensagem do Usuário</legend>
                         Grau de Urgência: Min <input type="range" name="grau" id="grau" min="0" max="10" step="1"> Máx <br> <br>
-                        Mensagem: <br> <textarea name="mens" id="mens" cols="30" rows="5"></textarea>
+                        Mensagem: <br> <textarea name="mens" id="mens" cols="30" rows="5" placeholder="Sua mensagem..."></textarea>
                     </fieldset>
 
                     <fieldset id="quero">
                         <legend>Quero um Google Glass</legend>
                         <input type="checkbox" name="gostaria" id="gostaria"> Gostaria de adquirir um Google Glass quando disponível <br>
                         Cor: <input type="color" name="cor" id="cor"> <br>
-                        Quantidade: <input type="number" name="quant" id="quant" min="0" max="10" maxlength="10" size="10"> <br>
-                        Preço Total: R$ <input type="number" name="ptotal" id="ptotal">
+                        Quantidade: <input type="number" name="quant" id="quant" min="0" max="1" maxlength="10" size="10"> <br>
+                        Preço Total: R$ <input type="number" name="ptotal" id="ptotal" readonly>
                     </fieldset>
-                </form>
 
-                <input type="button" value="Enviar" id="botao">
+                    <input type="button" value="Enviar" id="botao" onclick="enviar()">
+                </form>
             </section>
     
             <footer>

@@ -1,0 +1,31 @@
+/**** Formatação Geral ****/
+
+fieldset {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+/* Formatação da identificação*/
+
+fieldset #identificacao {
+    
+}
+
+fieldset #fsexo {
+    height: 80px;
+    width: 150px;
+}
+
+/* Fomatação do Botão*/
+
+#botao {
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    margin: 0px;
+    size: 30px;
+}
+

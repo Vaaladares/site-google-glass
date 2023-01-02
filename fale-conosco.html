@@ -53,21 +53,21 @@
                 <form action="login.php" method="post" autocomplete="off">
                     <fieldset id="identificacao">
                         <legend>Identificação do Usuário</legend>
-                        Nome: <input type="text" name="nome" id="nome" placeholder=" Nome completo" size="20"> <br>
-                        Senha: <input type="password" name="senha" id="senha" placeholder=" 8 Dígitos" size="10"> <br>
-                        E-mail: <input type="email" name="email" id="email" placeholder=" E-mail">
+                        <label for="nome">Nome:</label> <input type="text" name="nome" id="nome" placeholder=" Nome completo" size="20"> <br>
+                        <label for="senha">Senha:</label> <input type="password" name="senha" id="senha" placeholder=" 8 Dígitos" size="10"> <br>
+                        <email>E-mail:</email> <input type="email" name="email" id="email" placeholder=" E-mail">
                         <fieldset id="fsexo">
                             <legend>Sexo:</legend>
-                                <input type="radio" name="sexo" id="sexomas"> Masculino <br>
-                                <input type="radio" name="sexo" id="sexofem"> Feminino
+                                <input type="radio" name="sexo" id="sexomas"> <label for="sexomas">Masculino</label> <br>
+                                <input type="radio" name="sexo" id="sexofem"> <label for="sexofem">Feminino</label>
                         </fieldset>
-                        Data de Nascimento: <input type="date" name="nasc" id="nasc">
+                        <label for="nasc">Data de Nascimento:</label> <input type="date" name="nasc" id="nasc">
                     </fieldset>
                     
                     <fieldset id="endereco">
                         <legend>Endereço do Usuário</legend>
-                        Logradouro: <input type="text" name="log" id="log" placeholder=" Rua, Av, ..."> <br>
-                        Número: <input type="text" name="numero" id="numero" max="6" size="3"> <br>
+                        <label for="log">Logradouro:</label> <input type="text" name="log" id="log" placeholder=" Rua, Av, ..."> <br>
+                        <label for="numero">Número:</label> <input type="text" name="numero" id="numero" max="6" size="3"> <br>
                         Estado: <input type="search" name="estado" id="estado" size="10"> <br>
                         Cidade: <input type="text" name="cidade" id="cidade" placeholder=" Sua cidade" size="10"> <br>
                     </fieldset>

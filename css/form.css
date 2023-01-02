@@ -31,6 +31,12 @@ fieldset #fsexo {
     border-color: rgba(143, 143, 143, 0.801);
 }
 
+/* Formatação do Pedido */
+
+input#cor {
+    margin-top: 10px;
+}
+
 /* Fomatação do Botão*/
 
 #botao {

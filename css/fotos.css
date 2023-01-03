@@ -6,15 +6,24 @@
     box-sizing: border-box;
 }
 
+div.cabeça p.atualizacao-fotos {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px;
+    top: 30px;
+}
+
+
 ul#album {
     margin: auto 10px;
     margin-top: 20px;
-    height: 100vh;
+    height: 530px;
 }
 
 ul#album li {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     margin-bottom: 20px;
     transition: 0.6s;
 }
@@ -26,24 +35,28 @@ ul#album li:hover {
 ul#album li#imagem1 {
     background: url('../imagens/galeria-01.jpg') no-repeat;
     background-size: 200px 200px;
+    background-position: center;
     float: left;
 }
 
 ul#album li#imagem2 {
     background: url('../imagens/galeria-02.jpg') no-repeat;
     background-size: 200px 200px;
+    background-position: center;
     float: right;
 }
 
 ul#album li#imagem3 {
     background: url('../imagens/galeria-03.jpg') no-repeat;
     background-size: 200px 200px;
+    background-position: center;
     float: left;
 }
 
 ul#album li#imagem4 {
     background: url('../imagens/galeria-04.jpg') no-repeat;
     background-size: 200px 200px;
+    background-position: center;
     float: right;
 }
 
@@ -67,7 +80,7 @@ span {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
     padding: 5px;
-    line-height: 360px;
+    line-height: 290px;
     transition: 0.7s;
 }
 

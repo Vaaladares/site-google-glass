@@ -40,13 +40,15 @@ input#cor {
 /* Fomatação do Botão*/
 
 #botao {
-    padding: 5px 20px 5px 20px;
+    display: block;
+    padding: 5px 25px 5px 25px;
     font-size: 15px;
     margin: 0px;
     size: 30px;
     border: none;
     background-color: rgb(66, 66, 66);
     color: white;
+    margin: auto;
 }
 
 #botao:hover {

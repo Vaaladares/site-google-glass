@@ -21,14 +21,14 @@ ul#album {
 }
 
 ul#album li {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     margin-bottom: 20px;
     transition: 0.6s;
 }
 
 ul#album li:hover {
-     -webkit-transform: scale(1.1);
+     /*-webkit-transform: scale(1.1);*/
 }
 
 ul#album li#imagem1 {
@@ -63,23 +63,23 @@ ul#album li#imagem5 {
     background: url('../imagens/galeria-05.jpg') no-repeat;
     background-size: 200px 200px;
     background-position: center;
-    float: right;
+    float: left;
 }
 
 ul#album li#imagem6 {
     background: url('../imagens/galeria-06.jpg') no-repeat;
     background-size: 200px 200px;
     background-position: center;
-    float: left;
+    float: right;
 }
 
 span {
-    opacity: 0;
+    opacity: 1;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
     padding: 5px;
-    line-height: 290px;
+    line-height: 320px;
     transition: 0.7s;
 }
 

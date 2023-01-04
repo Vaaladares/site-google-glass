@@ -18,6 +18,7 @@ ul#album {
     margin: auto 10px;
     margin-top: 20px;
     height: 530px;
+    list-style: none;
 }
 
 ul#album li {

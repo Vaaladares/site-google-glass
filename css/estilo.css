@@ -64,13 +64,13 @@ header .gg p {
     font-size: 25px;
 }
 
-menu {
+menu#navbar {
     display: none;
+    transition: 1s ease-in;   
 }
 
-ul {
-    list-style-type: none;
-    
+menu#navbar ul {
+    list-style-type: none; 
 }
 
 li a {
@@ -86,6 +86,7 @@ li a {
 
 li a:hover {
     background-color: rgb(66, 66, 66);
+    transition: .8s;
 }
 
 /**** Configuração da Section ****/

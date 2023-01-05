@@ -1,0 +1,52 @@
+@media screen and (min-width: 500px) {
+    main {
+        width: 80%;
+    }
+
+    header {
+        border-bottom: 1px solid black;
+    }
+    
+    header i#burguer {
+        display: none;
+    }
+
+    header menu#navbar {
+        display: block;
+        position: relative;
+        float: right;
+        top: -120px;
+        right: 40px;
+    }
+
+    header menu#navbar li {
+        position: relative;
+        display: inline-block;
+    }
+
+    header menu#navbar li a {
+        font-size: 13px;
+        padding: 5px 20px 10px 20px;
+    }
+
+    article {
+    }
+
+    section {
+        width: 620px;
+        float: left;
+        padding-right: 15px;
+        border-right: 1px solid rgb(0, 0, 0);
+    }
+
+    aside {
+        position: relative;
+        width: 350px;
+        float: right;
+        top: 20px;
+    }
+
+    footer {
+        clear: both;
+    }
+}
